@@ -1,12 +1,17 @@
 import random
 
+"""
+    random.randint(start, stop)
+    
+    Parameters:
+    - start(int): Required. An integer specifying at which position to start.
+    - stop(int): Required. An integer specifying at which position to end.
+"""
+
 def generate_random_password(length=16, listOfPossibleCharacters) -> str:
     """
     Generates a random password of a specified length using a provided list of characters.
     
-    If no character set is provided, a default list including uppercase letters, lowercase letters,
-    digits, and special characters is used. The default length of the password is 16 characters.
-
     Parameters:
     - length (int): The length of the password to be generated. Default is 16.
     - character_set (list of str): A list of characters that can be used to generate the password.
