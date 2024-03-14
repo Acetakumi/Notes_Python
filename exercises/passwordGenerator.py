@@ -1,10 +1,10 @@
 import random
 
-def generate_random_password(length, listOfPossibleCharacters) -> str:
+def generate_random_password(length) -> str:
     password = ""
     for i in range(0,length,1): 
-        x = random.randint(0,len(listOfPossibleCharacters)-1)
-        password = password + listOfPossibleCharacters[x]
+        x = random.randint(0,len(character_set)-1)
+        password = password + character_set[x]
     return password
     
             
@@ -18,4 +18,3 @@ character_set = [
             '=', '{', '}', '[', ']', '|', ':', ';', '<', '>', ',', '.', '?', '/'
         ]
 
-print(generate_random_password(16, character_set))
