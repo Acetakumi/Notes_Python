@@ -11,6 +11,6 @@ Please enter the individual's year of birth: 1994
 ```
 The individual John is 30 years old.
 ```
-**Note:** Assuming the current year is 2024 for the age calculation.
+**Note:** Assuming the current year is 2024 for the age calculation and the current year is hard coded in the program.
 
 **Save the program as:** `age.py`
